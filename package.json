@@ -4,6 +4,9 @@
   "description": "Starter kit by Llau Systems",
   "author": "Llau Systems",
   "license": "MIT",
+  "scripts": {
+    "start": "tsc src/index.ts; babel-node tools/srcServer.js"
+  },
   "dependencies": {
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
@@ -15,7 +18,8 @@
     "react-router-redux": "4.0.4",
     "redux": "3.5.2",
     "redux-thunk": "2.0.1",
-    "toastr": "2.1.2"
+    "toastr": "2.1.2",
+    "typescript": "^3.2.2"
   },
   "devDependencies": {
     "babel-cli": "6.8.0",
@@ -38,7 +42,7 @@
     "eslint-watch": "2.1.11",
     "eventsource-polyfill": "0.9.6",
     "expect": "1.19.0",
-    "express": "4.13.4",
+    "express": "^4.16.4",
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.8.5",
     "jsdom": "8.5.0",
@@ -56,6 +60,5 @@
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
   },
-  "repository": {
-  }
+  "repository": {}
 }
