@@ -14,7 +14,7 @@
     "@types/react-dom": "^16.0.11",
     "babel-polyfill": "6.8.0",
     "bootstrap": "3.3.6",
-    "jquery": "2.2.3",
+    "jquery": "3.5.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-redux": "4.4.5",
